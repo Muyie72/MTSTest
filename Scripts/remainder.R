@@ -30,6 +30,6 @@
 # Remember to set appropriate default values! Be sure to save this 
 # script and type submit() in the console after you write the function.
 
-remainder <- function(num, divisor) {
+remainder <- function(num, divisor=2) {
   num%%divisor 
 }
